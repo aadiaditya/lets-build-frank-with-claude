@@ -228,7 +228,7 @@ That's the point of the course.
 | [ADR-007](docs/adr/ADR-007-mcp-endpoint-authentication.md) | MCP endpoint requires caller authentication | **Rejected** — see the ADR for what that accepts |
 | [ADR-010](docs/adr/ADR-010-one-open-credential.md) | One deliberately open classroom credential (supersedes 006's credential model) | Accepted |
 | ADR-008 | Connect Frank to the GitHub pipeline | **You write this in class** |
-| ADR-009 | Let Frank read what is running in his own resource group | **You write this in class** |
+| [ADR-009](docs/adr/ADR-009-read-own-resource-group.md) | Let Frank read what is running in his own resource group | Proposed |
 
 ## Ground rules (security)
 
