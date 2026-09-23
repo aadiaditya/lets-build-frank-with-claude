@@ -16,3 +16,7 @@ build/
 .claude/settings.local.json
 
 .DS_Store
+
+# Local only: the Dockerfile copies ui/dist to /app/public inside the image.
+# Staging it here for a local run must never be committed.
+server/public/
