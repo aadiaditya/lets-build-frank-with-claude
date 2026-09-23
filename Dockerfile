@@ -48,7 +48,7 @@ COPY --chown=node:node --from=server-build /build/server/dist ./dist
 # config.ts resolves the console as `<package root>/public`, which is this.
 COPY --chown=node:node --from=ui-build /build/ui/dist ./public
 
-# ADR-004 gives Frank a managed identity, not root.
+# Least privilege inside the container too: Frank runs as node, never root.
 USER node
 
 # Must match deploy.yml's --target-port and config.ts's PORT default.
